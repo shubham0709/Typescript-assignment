@@ -49,7 +49,27 @@ interface personDetails {
 
 //problem 5 : function that accepts person details
 // pushes the details into array named as allPersons
-let allPersons: personDetails[];
+
+let shubhamAdd: Address = {
+  houseNumber: 23,
+  street: 41,
+  city: "Mhow",
+  state: "Madhya Pradesh",
+  postalCode: 453441,
+  country: "string",
+};
+var shubhamDetails: personDetails = {
+  prefix: "Mr",
+  phones: [9993050082],
+  addresses: [shubhamAdd],
+  email: "shubham07barore@gmail.com",
+  firstname: "shubham",
+  lastname: "barore",
+  middlename: "..",
+};
+var allPersons: object[] = [];
+phoneBook(shubhamDetails);
 function phoneBook(details: personDetails) {
   allPersons.push(details);
 }
+console.log(allPersons);
