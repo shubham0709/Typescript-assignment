@@ -60,14 +60,14 @@ let shubhamAdd: Address = {
 };
 var shubhamDetails: personDetails = {
   prefix: "Mr",
-  phones: [9993050082],
+  phones: [9993050082, 8463069377],
   addresses: [shubhamAdd],
   email: "shubham07barore@gmail.com",
   firstname: "shubham",
   lastname: "barore",
   middlename: "..",
 };
-var allPersons: object[] = [];
+var allPersons: personDetails[] = [];
 phoneBook(shubhamDetails);
 function phoneBook(details: personDetails) {
   allPersons.push(details);
