@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --watch ./src/index.ts --target es6",
+    "build": "tsc --watch --target es6",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
