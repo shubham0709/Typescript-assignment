@@ -26,7 +26,7 @@ var firstAdmin: Admin = {
   role: "database admin",
 };
 
-function getType(inputGiven) {
+function getType(inputGiven: User | Admin) {
   return inputGiven.type;
 }
 
